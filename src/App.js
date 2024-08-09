@@ -5,7 +5,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container-fluid">
-        <header className="App-header">My React Dictionary App</header>
+        <header className="App-header">
+          <h1>My React Dictionary App</h1>
+        </header>
         <main>
           <Dictionary />
         </main>
