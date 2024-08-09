@@ -23,3 +23,8 @@
   font-size: 12px;
   margin-top: 5px;
 }
+
+.Dictionary .Photos img {
+  border-radius: 10px;
+  border: 5px solid var(--secondary-color);
+}
