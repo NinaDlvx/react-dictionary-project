@@ -13,7 +13,6 @@ export default function Results(props) {
             <i>/ {props.results.phonetic} /</i>
           </p>
         </section>
-
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
