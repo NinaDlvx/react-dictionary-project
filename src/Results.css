@@ -1,0 +1,39 @@
+.Results h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.Results h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-decoration-style: wavy;
+}
+
+.Results .phonetic {
+  margin-left: 30px;
+}
+
+.Results .definition {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.Results .example {
+  font-size: 15px;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.Results .Synonyms {
+  margin: 30px 0 0;
+  padding: 0;
+}
+
+.Results .Synonyms li {
+  display: inline-block;
+  padding-right: 5px;
+  line-height: 1;
+  font-size: 15px;
+}

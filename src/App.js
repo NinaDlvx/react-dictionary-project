@@ -9,7 +9,7 @@ export default function App() {
           <h1>My React Dictionary App</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="text-center">Coded by Nina Delvaux</footer>
       </div>

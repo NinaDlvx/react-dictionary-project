@@ -1,1 +1,24 @@
+:root {
+  --primary-color: rgb(231, 184, 127, 0.93);
+  --secondary-color: rgb(255, 228, 196);
+}
 
+body {
+  background-image: url("/src/images/librarybackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 26px;
+  color: var(--secondary-color);
+}
+
+.App-header,
+.App footer {
+  margin: 30px 0;
+  color: var(--secondary-color);
+}
